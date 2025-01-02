@@ -110,10 +110,14 @@ def find_in_set(number):
 
 ## Practice Questions
 
-1. What is the main difference between **linear** and **non-linear** data structures?
-2. Can you think of a real-world example for a `hash table`?
-3. Why would you choose an `array` over a `linked list`, or vice versa?
-4. How does the choice of data structure affect *program performance*?
+1Q. What is the main difference between **linear** and **non-linear** data structures?
+1A. Linear structures arrange elements sequentially, while non-linear structures can have elements connected to multiple other elements
+2Q. Can you think of a real-world example for a `hash table`?
+2A. A dictionary is a real-world example of a hash table. It maps keys to values, allowing for efficient lookups.
+3Q. Why would you choose an `array` over a `linked list`, or vice versa?
+3A. An array is faster for random access, while a linked list is faster for insertion and deletion.
+4Q. How does the choice of data structure affect *program performance*?
+4A. The choice of data structure can significantly affect program performance. For example, a hash table can provide O(1) time complexity for lookups, while a linked list can provide O(n) time complexity for lookups.
 
 ## Next Steps
 - Review the *basic concepts* covered
